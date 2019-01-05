@@ -1,10 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MouseLook.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\RayShooter.cs">
     <Files>
-      <File FileName="Assets\Spin.cs" Line="15" Column="3" />
-      <File FileName="Assets\MouseLook.cs" Line="25" Column="3" />
-      <File FileName="Assets\FPSInput.cs" Line="22" Column="30" />
+      <File FileName="Assets\Spin.cs" Line="1" Column="1" />
+      <File FileName="Assets\MouseLook.cs" Line="1" Column="1" />
+      <File FileName="Assets\FPSInput.cs" Line="1" Column="1" />
+      <File FileName="Assets\RayShooter.cs" Line="25" Column="27" />
+      <File FileName="Assets\ReactiveTarget.cs" Line="24" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
