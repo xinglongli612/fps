@@ -46,14 +46,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CallBack.cs" />
      <Compile Include="Assets\FPSInput.cs" />
      <Compile Include="Assets\Fireball.cs" />
+     <Compile Include="Assets\Messenger.cs" />
      <Compile Include="Assets\MouseLook.cs" />
      <Compile Include="Assets\PlayerCharacter.cs" />
      <Compile Include="Assets\RayShooter.cs" />
      <Compile Include="Assets\ReactiveTarget.cs" />
      <Compile Include="Assets\SceneController.cs" />
+     <Compile Include="Assets\SettingsPopup.cs" />
      <Compile Include="Assets\Spin.cs" />
+     <Compile Include="Assets\UIController.cs" />
      <Compile Include="Assets\WanderingAI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
