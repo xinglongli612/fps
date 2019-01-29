@@ -55,6 +55,7 @@
      <Compile Include="Assets\PlayerCharacter.cs" />
      <Compile Include="Assets\RayShooter.cs" />
      <Compile Include="Assets\ReactiveTarget.cs" />
+     <Compile Include="Assets\RelativeMovement.cs" />
      <Compile Include="Assets\SceneController.cs" />
      <Compile Include="Assets\SettingsPopup.cs" />
      <Compile Include="Assets\Spin.cs" />
