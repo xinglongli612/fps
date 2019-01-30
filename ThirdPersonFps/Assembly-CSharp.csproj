@@ -39,20 +39,38 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>d:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>d:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BasicUI.cs" />
      <Compile Include="Assets\CallBack.cs" />
+     <Compile Include="Assets\CollectibleItem.cs" />
+     <Compile Include="Assets\ColorChangeDevice.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\DeviceOperator.cs" />
+     <Compile Include="Assets\DeviceTrigger.cs" />
+     <Compile Include="Assets\DoorOpenDevice.cs" />
      <Compile Include="Assets\FPSInput.cs" />
      <Compile Include="Assets\Fireball.cs" />
+     <Compile Include="Assets\IGameManager.cs" />
+     <Compile Include="Assets\InventoryManager.cs" />
+     <Compile Include="Assets\ManagerStatus.cs" />
+     <Compile Include="Assets\Managers.cs" />
      <Compile Include="Assets\Messenger.cs" />
      <Compile Include="Assets\MouseLook.cs" />
      <Compile Include="Assets\OrbitCamera.cs" />
      <Compile Include="Assets\PlayerCharacter.cs" />
+     <Compile Include="Assets\PlayerManager.cs" />
      <Compile Include="Assets\RayShooter.cs" />
      <Compile Include="Assets\ReactiveTarget.cs" />
      <Compile Include="Assets\RelativeMovement.cs" />
@@ -61,6 +79,7 @@
      <Compile Include="Assets\Spin.cs" />
      <Compile Include="Assets\UIController.cs" />
      <Compile Include="Assets\WanderingAI.cs" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -81,6 +100,9 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/Unity/ThirdPersonFps/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

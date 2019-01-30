@@ -122,3 +122,5 @@ E:\Unity\ThirdPersonFps\Temp\bin\Debug\UnityEngine.VR.xml
 E:\Unity\ThirdPersonFps\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 E:\Unity\ThirdPersonFps\obj\Debug\Assembly-CSharp.dll
 E:\Unity\ThirdPersonFps\obj\Debug\Assembly-CSharp.pdb
+E:\Unity\ThirdPersonFps\Temp\bin\Debug\DOTween.dll
+E:\Unity\ThirdPersonFps\Temp\bin\Debug\DOTween.xml

@@ -81,5 +81,9 @@ public class RelativeMovement : MonoBehaviour {
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
 		_contact = hit;
+		Rigidbody body = hit.collider.attachedRigidbody;
+		if (body != null && !body.isKinematic) {
+			body.velocity = hit.moveDirection * 3.0f;
+		}
 	}
 }

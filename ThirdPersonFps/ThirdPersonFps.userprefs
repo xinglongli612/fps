@@ -1,9 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\RelativeMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerManager.cs">
     <Files>
-      <File FileName="Assets\OrbitCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets\RelativeMovement.cs" Line="66" Column="5" />
+      <File FileName="Assets\RelativeMovement.cs" Line="86" Column="45" />
+      <File FileName="Assets\DoorOpenDevice.cs" Line="31" Column="18" />
+      <File FileName="Assets\DeviceOperator.cs" Line="17" Column="81" />
+      <File FileName="Assets\ColorChangeDevice.cs" Line="9" Column="53" />
+      <File FileName="Assets\DeviceTrigger.cs" Line="17" Column="3" />
+      <File FileName="Assets\CollectibleItem.cs" Line="22" Column="1" />
+      <File FileName="Assets\IGameManager.cs" Line="9" Column="1" />
+      <File FileName="Assets\ManagerStatus.cs" Line="9" Column="2" />
+      <File FileName="Assets\PlayerManager.cs" Line="26" Column="32" />
+      <File FileName="Assets\Managers.cs" Line="26" Column="4" />
+      <File FileName="Assets\InventoryManager.cs" Line="43" Column="41" />
+      <File FileName="Assets\BasicUI.cs" Line="43" Column="57" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
