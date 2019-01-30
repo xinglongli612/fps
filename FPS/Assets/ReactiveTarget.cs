@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class ReactiveTarget : MonoBehaviour {
 
@@ -18,7 +19,8 @@ public class ReactiveTarget : MonoBehaviour {
 		StartCoroutine (Die ());
 	}
 	private IEnumerator Die(){
-		this.transform.Rotate (-75,0,0);
+		//this.transform.Rotate (-75,0,0);
+		this.transform.DORotate (new Vector3 (-75, 0, 0), 3).SetEase(Ease.InOutCubic);
 		yield return new WaitForSeconds (1.5f);
 
 		Destroy (gameObject);
