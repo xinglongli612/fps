@@ -54,9 +54,11 @@
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\DeviceOperator.cs" />
      <Compile Include="Assets\FPSInput.cs" />
      <Compile Include="Assets\Fireball.cs" />
      <Compile Include="Assets\IGameManager.cs" />
+     <Compile Include="Assets\IamgesManager.cs" />
      <Compile Include="Assets\ManagerStatus.cs" />
      <Compile Include="Assets\Managers.cs" />
      <Compile Include="Assets\Messenger.cs" />
@@ -72,6 +74,7 @@
      <Compile Include="Assets\WanderingAI.cs" />
      <Compile Include="Assets\WeatherController.cs" />
      <Compile Include="Assets\WeatherManager.cs" />
+     <Compile Include="Assets\WebLoadingBillboard.cs" />
      <None Include="Assets\SkyboxBlended.shader" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
  <Reference Include="UnityEngine.UI">

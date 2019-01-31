@@ -16,8 +16,8 @@ public class WeatherController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		SetOvercast (_cloudValue);
-		_cloudValue += .005f;
+		//SetOvercast (_cloudValue);
+		//_cloudValue += .005f;
 	}
 
 	private void SetOvercast(float value) {
