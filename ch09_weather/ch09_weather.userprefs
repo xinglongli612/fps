@@ -1,14 +1,43 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Managers.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FPSInput.cs">
     <Files>
       <File FileName="Assets\SkyboxBlended.shader" Line="20" Column="36" />
-      <File FileName="Assets\WeatherController.cs" Line="20" Column="24" />
-      <File FileName="Assets\Managers.cs" Line="18" Column="2" />
-      <File FileName="Assets\WeatherManager.cs" Line="13" Column="34" />
-      <File FileName="Assets\NetworkService.cs" Line="1" Column="1" />
+      <File FileName="Assets\WeatherController.cs" Line="15" Column="3" />
+      <File FileName="Assets\Managers.cs" Line="14" Column="38" />
+      <File FileName="Assets\WeatherManager.cs" Line="14" Column="33" />
+      <File FileName="Assets\NetworkService.cs" Line="41" Column="25" />
       <File FileName="Assets\IGameManager.cs" Line="7" Column="37" />
+      <File FileName="Assets\IamgesManager.cs" Line="21" Column="25" />
+      <File FileName="Assets\DeviceOperator.cs" Line="1" Column="1" />
+      <File FileName="Assets\WebLoadingBillboard.cs" Line="8" Column="42" />
+      <File FileName="Assets\FPSInput.cs" Line="39" Column="1" />
+      <File FileName="Assets\MouseLook.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayerCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets\RayShooter.cs" Line="37" Column="37" />
+      <File FileName="Assets\ReactiveTarget.cs" Line="1" Column="1" />
+      <File FileName="Assets\SceneController.cs" Line="1" Column="1" />
+      <File FileName="Assets\SettingsPopup.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spin.cs" Line="1" Column="1" />
+      <File FileName="Assets\UIController.cs" Line="1" Column="1" />
+      <File FileName="Assets\WanderingAI.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ch09_weather" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="FPSInput.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="ch09_weather" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
