@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="23" Column="39" />
+      <File FileName="Assets\Scripts\DestoryByContact.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="63" Column="22" />
+      <File FileName="Assets\Scripts\BGController.cs" Line="14" Column="5" />
+      <File FileName="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Grayscope.cs" Line="63" Column="53" />
+      <File FileName="Assets\Scripts\CubeBoundary.cs" Line="9" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="SpaceShooter" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
