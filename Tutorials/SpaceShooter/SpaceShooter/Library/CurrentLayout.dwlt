@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 68
+  controlID: 71
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 97
+  controlID: 70
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,12 +230,12 @@ MonoBehaviour:
     height: 972
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 15}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,7 +266,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 90e7fbff62e8fbff4ee9fbff3215fcff0e18fcffde2bfcffb02cfcff9c2dfcff1c3efcffee3efcffda3ffcff4045fcff1246fcfffe46fcffde6ffcffe470fcffd071fcff0478fcff0a79fcfff879fcff0aaefeffb6bdfeff88befeff84bffeff74c4feff46c5feff42c6feffea47ffff0848ffff0449ffff1054ffffe254ffffde55ffff3291ffff0492ffff0093ffffb09effff829fffff7ea0ffffd8cfffffaad0ffffa6d1ffff98d6ffff6ad7ffff66d8ffffc6e6ffff98e7ffff94e8fffff0ecffffc2edffffc2eeffffe6fbffff000000008a3a0000
+    m_ExpandedIDs: 7c97ffff4298ffff2e99ffff429dffff089efffff49effffe2a8ffffa8a9ffff94aaffffc8b2ffff8eb3ffff7ab4ffff1cbaffffe2baffffcebbffffd6ecffffa8edffff98eeffffe6fbffff00000000a2290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -359,13 +359,12 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Textures
+    - Assets/Scripts
   m_ViewMode: 0
   m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/Audio
+  m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\Unity\NatureStarterKit2\Tutorials\SpaceShooter\SpaceShooter
+  m_LastProjectPath: E:\Unity\Tutorials\SpaceShooter\SpaceShooter
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
@@ -396,7 +395,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 120}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 00000000ce240000f6240000302500004c250000962500009a250000b0250000b6250000c62500000e26000022260000
@@ -488,10 +487,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -300
-    m_HBaseRangeMax: 300
-    m_VBaseRangeMin: -450
-    m_VBaseRangeMax: 450
+    m_HBaseRangeMin: -543
+    m_HBaseRangeMax: 543
+    m_VBaseRangeMin: -467
+    m_VBaseRangeMax: 467
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -500,7 +499,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -558,7 +557,7 @@ MonoBehaviour:
     height: 951
   m_SceneLighting: 1
   lastFramingTime: 746.3888156481405
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
@@ -579,26 +578,26 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: -0.34535465, y: -0.030401371, z: 0.011195229, w: -0.93791384}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.34535435, y: -0.030401345, z: 0.01119522, w: -0.93791306}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 35.002003
+    m_Target: 2269.1487
     speed: 2
-    m_Value: 35.002003
+    m_Value: 2269.1487
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
-  m_LastSceneViewRotation: {x: 0.27958155, y: -0.49623019, z: 0.1726415, w: 0.80360734}
+    m_Value: 1
+  m_LastSceneViewRotation: {x: -0.34535465, y: -0.030401371, z: 0.011195228, w: -0.9379138}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
