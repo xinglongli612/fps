@@ -65,6 +65,7 @@
      <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
+     <Compile Include="Assets\test.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
