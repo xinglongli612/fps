@@ -46,18 +46,12 @@ public class PlayerController : MonoBehaviour {
 		//GUILayout.Label ("gyroX : " + moveHorizontal1);
 		//GUILayout.Label ("gyroY : " + moveVertical1);
 		Vector3 movement = new Vector3(moveHorizontal, 0.0f,moveVertical);
-		rb.velocity = movement * 30.0f;
+		rb.velocity = movement * 10.0f;
 		rb.position = new Vector3(
 			Mathf.Clamp(rb.position.x, boundary.xMin, boundary.xMax),
 			0.0f,
 			Mathf.Clamp(rb.position.z, boundary.zMin, boundary.zMax)
 		);
 		rb.rotation = Quaternion.Euler(0.0f, 0.0f, movement.x * -15.5f);
-	}
-
-	protected void OnGUI()
-	{
-		GUILayout.Label ("gyroX : " + moveHorizontal1);
-		GUILayout.Label ("gyroY : " + moveVertical1);
 	}
 }

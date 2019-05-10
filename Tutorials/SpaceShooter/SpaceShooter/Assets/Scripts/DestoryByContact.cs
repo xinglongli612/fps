@@ -18,10 +18,12 @@ public class DestoryByContact : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		if (other.tag == "Boundary") {
+		if (other.CompareTag("Boundary") || other.CompareTag("Enemy")) {
 			return;
 		}
-		Instantiate (explode, transform.position, transform.rotation);
+		if (explode != null) {
+			Instantiate (explode, transform.position, transform.rotation);
+		}
 		if (other.tag == "Player") {
 			Instantiate (playerExplode, other.transform.position, other.transform.rotation);
 			gameController.GameOver ();
