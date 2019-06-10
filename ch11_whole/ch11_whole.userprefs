@@ -1,0 +1,39 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UIController.cs">
+    <Files>
+      <File FileName="Assets\MissionManager.cs" Line="19" Column="3" />
+      <File FileName="Assets\UIController.cs" Line="4" Column="22" />
+      <File FileName="Assets\PlayerManager.cs" Line="17" Column="1" />
+      <File FileName="Assets\Managers.cs" Line="27" Column="29" />
+      <File FileName="Assets\SceneController.cs" Line="21" Column="32" />
+      <File FileName="Assets\InventoryPopup.cs" Line="18" Column="1" />
+      <File FileName="Assets\Fireball.cs" Line="8" Column="1" />
+      <File FileName="Assets\PlayerCharacter.cs" Line="13" Column="1" />
+      <File FileName="Assets\InventoryManager.cs" Line="30" Column="2" />
+      <File FileName="Assets\DataManager.cs" Line="20" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ch11_whole" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="UIController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="ch11_whole" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\Unity\ch11_whole\Assets\PlayerManager.cs" line="23" column="9" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

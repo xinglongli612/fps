@@ -1,0 +1,4 @@
+sceneSetups:
+- path: E:/Unity/leleShader/Unity_Shaders_Book/Assets/Scenes/Chapter9/Scene_9_4_2.unity
+  isLoaded: 1
+  isActive: 1
